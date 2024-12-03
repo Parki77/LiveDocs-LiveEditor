@@ -18,11 +18,19 @@ declare global {
     UserMeta: {
       id: string;
       info: {
+<<<<<<< HEAD
         id: string;
         name: string;
         email: string;
         avatar: string;
         color: string;
+=======
+        id:string;
+        name:string;
+        email:string;
+        avatar:string;
+        color:string;
+>>>>>>> 8c25921bc852ac713bbc47310cb504002b39defe
       };
     };
 

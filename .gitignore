@@ -34,6 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+<<<<<<< HEAD
 
 # Sentry Config File
 .env.sentry-build-plugin
+=======
+.env.local
+>>>>>>> 8c25921bc852ac713bbc47310cb504002b39defe

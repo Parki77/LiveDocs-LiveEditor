@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {withSentryConfig} from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -43,3 +44,9 @@ disableLogger: true,
 // https://vercel.com/docs/cron-jobs
 automaticVercelMonitors: true,
 });
+=======
+/** @type {import('next').NextConfig} */
+const nextConfig = {};
+
+export default nextConfig;
+>>>>>>> 8c25921bc852ac713bbc47310cb504002b39defe

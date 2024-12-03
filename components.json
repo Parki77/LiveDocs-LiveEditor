@@ -6,12 +6,26 @@
   "tailwind": {
     "config": "tailwind.config.ts",
     "css": "app/globals.css",
+<<<<<<< HEAD
     "baseColor": "slate",
     "cssVariables": false,
+=======
+    "baseColor": "neutral",
+    "cssVariables": true,
+>>>>>>> 8c25921bc852ac713bbc47310cb504002b39defe
     "prefix": ""
   },
   "aliases": {
     "components": "@/components",
+<<<<<<< HEAD
     "utils": "@/lib/utils"
   }
+=======
+    "utils": "@/lib/utils",
+    "ui": "@/components/ui",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "iconLibrary": "lucide"
+>>>>>>> 8c25921bc852ac713bbc47310cb504002b39defe
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import AddDocumentBtn from '@/components/AddDocumentBtn';
 import { DeleteModal } from '@/components/DeleteModal';
 import Header from '@/components/Header'
@@ -76,6 +77,16 @@ const Home = async () => {
         </div>
       )}
     </main>
+=======
+import { Button } from '@/components/ui/button'
+import React from 'react'
+
+const Home = () => {
+  return (
+    <div>
+      <Button> Click</Button>
+    </div>
+>>>>>>> 8c25921bc852ac713bbc47310cb504002b39defe
   )
 }
 

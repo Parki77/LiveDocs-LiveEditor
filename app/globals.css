@@ -2,10 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 @import '@liveblocks/react-ui/styles.css';
 @import '@liveblocks/react-lexical/styles.css';
 
 @import '../styles/dark-theme.css';
+=======
+/* @import "@liveblocks/react-ui/styles.css"; */
+/* @import "@liveblocks/react-lexical/styles.css"; */
+
+ @import "../styles/dark-theme.css"; 
+>>>>>>> 8c25921bc852ac713bbc47310cb504002b39defe
 
 /* ========================================== TAILWIND STYLES */
 @layer base {
@@ -111,7 +118,11 @@
   }
 
   .document-title-input {
+<<<<<<< HEAD
     @apply min-w-[78px] flex-1 border-none bg-transparent px-0 text-left text-base font-semibold leading-[24px] focus-visible:ring-0 focus-visible:ring-offset-0 disabled:text-black sm:text-xl md:text-center !important;
+=======
+    @apply min-w-[78px] border-none bg-transparent px-0 text-left text-base font-semibold leading-[24px] focus-visible:ring-0 focus-visible:ring-offset-0 disabled:text-black sm:text-xl md:text-center !important;
+>>>>>>> 8c25921bc852ac713bbc47310cb504002b39defe
   }
 
   .document-title {
@@ -201,12 +212,16 @@
 }
 
 .cl-logoBox {
+<<<<<<< HEAD
   height: 64px;
 }
 
 .cl-userButtonPopoverMain,
 .cl-userButtonPopoverFooter {
   background: #0b1527;
+=======
+  height: 52px;
+>>>>>>> 8c25921bc852ac713bbc47310cb504002b39defe
 }
 
 /* ======================== Liveblocks Override */
@@ -228,19 +243,32 @@
   --lb-foreground-moderate: #fff;
 }
 
+<<<<<<< HEAD
 .lb-button:where([data-variant='primary']) {
+=======
+.lb-button:where([data-variant="primary"]) {
+>>>>>>> 8c25921bc852ac713bbc47310cb504002b39defe
   background-color: #161e30;
   color: #b4c6ee;
   padding: 8px;
 }
 
 .lb-button:where(
+<<<<<<< HEAD
     [data-variant='default']:not(
         :is(
             :enabled:hover,
             :enabled:focus-visible,
             [aria-expanded='true'],
             [aria-selected='true']
+=======
+    [data-variant="default"]:not(
+        :is(
+            :enabled:hover,
+            :enabled:focus-visible,
+            [aria-expanded="true"],
+            [aria-selected="true"]
+>>>>>>> 8c25921bc852ac713bbc47310cb504002b39defe
           )
       )
   ) {
@@ -250,8 +278,13 @@
 .lb-button:where(
     :enabled:hover,
     :enabled:focus-visible,
+<<<<<<< HEAD
     [aria-expanded='true'],
     [aria-selected='true']
+=======
+    [aria-expanded="true"],
+    [aria-selected="true"]
+>>>>>>> 8c25921bc852ac713bbc47310cb504002b39defe
   ) {
   --lb-button-background: #161e30;
 
@@ -285,10 +318,14 @@
 .lb-lexical-mention-suggestion-user,
 .lb-composer-suggestions-list-item,
 .lb-inbox-notification-date,
+<<<<<<< HEAD
 .lb-comment-author,
 .lb-emoji-picker-search-icon,
 .lb-emoji-picker-category-header-title,
 .lb-emoji-picker-search::placeholder {
+=======
+.lb-comment-author {
+>>>>>>> 8c25921bc852ac713bbc47310cb504002b39defe
   color: #b4c6ee;
 }
 
